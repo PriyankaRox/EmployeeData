@@ -1,0 +1,11 @@
+.textEmp{
+    color:#2471A3 ;
+  }
+
+.table-button{
+  background-color: lightblue;
+           border:1px solid;     
+           border-radius: 6px;
+           color:black;
+           box-shadow : 0 8px 16px 0 #9b9494, 0 6px 20px 0 rgb(119 115 115 / 19%);
+}
