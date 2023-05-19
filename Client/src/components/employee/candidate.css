@@ -1,0 +1,70 @@
+.candiCard {
+  border-radius: 7rem;
+}
+
+.candiText {
+  color: #2471a3;
+  text-align: center;
+  margin-top: 1em;
+}
+
+h4 {
+  text-align: center;
+}
+.item-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.canditextFont {
+  font-family: "helvetica";
+  font-weight: 600;
+  color: rgb(90, 86, 86);
+}
+
+.comment {
+  float: left;
+  width: 500px;
+  height: 70px;
+}
+
+.candibutton {
+  text-align: right;
+  margin-left: 32em;
+  margin-top: 1em;
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+.tabStyle {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 15px rgb(96, 95, 99);
+}
+
+.tabStyle:hover {
+  background-color: #e2ecf3 !important;
+}
+
+.form-style {
+  background: #f5e8e8;
+  border: #c3aeae;
+  border-width: 2px;
+  border-style: solid;
+}
